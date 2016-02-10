@@ -14,6 +14,7 @@
 		9A0751581C6ADDAA0076DED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0751561C6ADDAA0076DED5 /* LaunchScreen.storyboard */; };
 		9A0751631C6ADDAB0076DED5 /* MapKitViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0751621C6ADDAB0076DED5 /* MapKitViewSampleTests.swift */; };
 		9A07516E1C6ADDAB0076DED5 /* MapKitViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A07516D1C6ADDAB0076DED5 /* MapKitViewSampleUITests.swift */; };
+		9A07517C1C6ADF440076DED5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A07517B1C6ADF440076DED5 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9A0751691C6ADDAB0076DED5 /* MapKitViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapKitViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A07516D1C6ADDAB0076DED5 /* MapKitViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewSampleUITests.swift; sourceTree = "<group>"; };
 		9A07516F1C6ADDAB0076DED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A07517B1C6ADF440076DED5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A07517C1C6ADF440076DED5 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		9A0751411C6ADDAA0076DED5 = {
 			isa = PBXGroup;
 			children = (
+				9A07517B1C6ADF440076DED5 /* MapKit.framework */,
 				9A07514C1C6ADDAA0076DED5 /* MapKitViewSample */,
 				9A0751611C6ADDAB0076DED5 /* MapKitViewSampleTests */,
 				9A07516C1C6ADDAB0076DED5 /* MapKitViewSampleUITests */,
@@ -193,6 +197,7 @@
 				TargetAttributes = {
 					9A0751491C6ADDAA0076DED5 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4NN44SZ65T;
 					};
 					9A07515D1C6ADDAB0076DED5 = {
 						CreatedOnToolsVersion = 7.2;
@@ -397,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MapKitViewSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Karin.MapKitViewSample;
@@ -408,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MapKitViewSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Karin.MapKitViewSample;
